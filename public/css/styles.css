@@ -5,15 +5,111 @@
   box-sizing: border-box;
 }
 
+/******* mobile view ********/
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
 #wrapper {
-  max-width: 960px;
   margin: 0 auto;
   line-height: 1.6;
-  background-color: white;
 }
-@media only screen and (min-width: 32.5em) {
+
+/***** Header ******/
+
+#top-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#top-header a {
+  color:black;
+}
+
+.siteName {
+  font-size: 35px;
+  color:black;
+}
+
+#tools {
+  color:black;
+  text-align: right;
+}
+
+/**** Navigation *****/
+nav{
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#menu li a:hover {
+  color: white;
+  background-color: blue;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color:blue
+}
+
+/****** Welcome ******/
+
+#welcome {
+  background-image: url(/public/images/vehicles/delorean-tn.jpg);
+}
+
+/****** Desktop View ******/
+
+@media only screen and (min-width: 750px) {
   body {
     background-image: url(/public/images/site/checkerboard.jpg);
   }
+
+  #wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: white;
+    border: 3px solid blue;
+  }
  
+  #menu li a {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #menu li a:hover {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
