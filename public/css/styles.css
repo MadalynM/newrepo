@@ -4,3 +4,16 @@
 *:after {
   box-sizing: border-box;
 }
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.6;
+  background-color: white;
+}
+@media only screen and (min-width: 32.5em) {
+  body {
+    background-image: url(/public/images/site/checkerboard.jpg);
+  }
+ 
+}
