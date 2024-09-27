@@ -22,6 +22,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 10px;
 }
 
 #top-header a {
@@ -76,14 +77,80 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color:blue
+#menu a:visited {
+  color:blue;
 }
 
 /****** Welcome ******/
 
 #welcome {
-  background-image: url(/public/images/vehicles/delorean-tn.jpg);
+  padding: 10px;
+  margin-top: 0px;
+}
+
+#delorean {
+  color:blue;
+  background: rgba(255, 255, 255, 0.3); 
+  float: left;
+}
+
+#delorean ul {
+  text-align: left;
+  margin-top: -20px;
+}
+
+#delorean li {
+  list-style-type: none;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#delorean a:visited {
+  color:white;
+}
+
+#welcome img {
+  position: relative;
+}
+
+/****** Reviews ******/
+
+#reviews {
+  clear: left
+}
+
+/***** Upgrades *******/
+
+a:visited {
+  color:blue;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+}
+
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#upgrades img {
+  background-color: blue;
+  padding: 10px;
+}
+
+#upgrades div {
+  margin: 10px;
 }
 
 /****** Desktop View ******/
