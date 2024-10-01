@@ -68,7 +68,7 @@ nav {
 
 #menu li a:hover {
   color: white;
-  background-color: rgb(91, 91, 255);
+  background-color: dodgerblue;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -78,7 +78,7 @@ a {
 }
 
 #menu a:visited {
-  color: rgb(91, 91, 255);
+  color: dodgerblue;
 }
 
 /****** Welcome ******/
@@ -89,7 +89,7 @@ a {
 }
 
 #delorean {
-  color: rgb(91, 91, 255);
+  color: dodgerblue;
   background: rgba(255, 255, 255, 0.3); 
   float: left;
 }
@@ -104,7 +104,7 @@ a {
 }
 
 button {
-  background-color: rgb(91, 91, 255);
+  background-color: dodgerblue;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -130,7 +130,7 @@ button {
 /***** Upgrades *******/
 
 a:visited {
-  color: rgb(91, 91, 255);
+  color: dodgerblue;
 }
 
 .upgrades-grid {
@@ -146,7 +146,7 @@ a:visited {
 }
 
 #upgrades img {
-  background-color: rgb(91, 91, 255);
+  background-color: dodgerblue;
   padding: 10px;
 }
 
@@ -166,7 +166,7 @@ a:visited {
     margin: 0 auto;
     line-height: 1.6;
     background-color: white;
-    border: 3px solid rgb(91, 91, 255);
+    border: 3px solid dodgerblue;
     border-radius: 10px;
   }
  
