@@ -20,8 +20,13 @@ h2 {
   line-height: 1.6;
 }
 
-ul {
+li {
   text-decoration: none;
+}
+
+.namePrice {
+  font-size: 20px;
+  padding: 15px;
 }
 
 /***** Header ******/
