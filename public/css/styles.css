@@ -11,6 +11,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+h2 {
+  color: dodgerblue;
+}
+
 #wrapper {
   margin: 0 auto;
   line-height: 1.6;
