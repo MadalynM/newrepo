@@ -20,6 +20,10 @@ h2 {
   line-height: 1.6;
 }
 
+ul {
+  text-decoration: none;
+}
+
 /***** Header ******/
 
 #top-header {
