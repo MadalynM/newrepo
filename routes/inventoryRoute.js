@@ -7,6 +7,6 @@ const invController = require("../controllers/invController")
 router.get("/type/:classificationId", invController.buildByClassificationId);
 
 // Route to get detail view
-//router.get("/detail/:invId", invController.buildDetailView); //
+router.get("/detail/:invId", invController.buildDetailView); //
 
 module.exports = router;

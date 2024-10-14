@@ -70,19 +70,19 @@ Util.buildClassificationGrid = async function(data){
 /* **************************************
 * Build the detail view HTML
 * ************************************ */
-//Util.buildDetailGrid = async function(req, res, next) {//
-  //let info = await invModel.getSpecificVehicle()//
-  //console.log(info)//
-  //let detail = '<h2>'//
-  //detail += info.inv_color + ' ' + info.inv_year + ' ' + info.inv_make + ' ' + info.inv_model//
-  //detail += '</h2>'//
-  //detail += '<img src="' + info.inv_image +'" alt="Image of '+ info.inv_make + ' ' + info.inv_model +' on CSE Motors" />'//
-  //detail += '<h3>'//
-  //detail += '<span>$' + new Intl.NumberFormat('en-US').format(info.inv_price) + '</span>'//
-  //detail += '</h3>'//
-  //detail += '<h3>'//
-  //detail += '<span>' + new Intl.NumberFormat('en-US').format(info.inv_miles) + '</span>'//
-  //detail += '</h3>'//
-  //detail += '<p>' + info.inv_description + '</p>'//
-  //return detail//
-//}//
+Util.buildDetailGrid = async function(req, res, next) {//
+  let info = await invModel.getSpecificVehicle()//
+  console.log(info)//
+  let detail = '<h2>'//
+  detail += info.inv_color + ' ' + info.inv_year + ' ' + info.inv_make + ' ' + info.inv_model//
+  detail += '</h2>'//
+  detail += '<img src="' + info.inv_image +'" alt="Image of '+ info.inv_make + ' ' + info.inv_model +' on CSE Motors" />'//
+  detail += '<h3>'//
+  detail += '<span>$' + new Intl.NumberFormat('en-US').format(info.inv_price) + '</span>'//
+  detail += '</h3>'//
+  detail += '<h3>'//
+  detail += '<span>' + new Intl.NumberFormat('en-US').format(info.inv_miles) + '</span>'//
+  detail += '</h3>'//
+  detail += '<p>' + info.inv_description + '</p>'//
+  return detail//
+}//
