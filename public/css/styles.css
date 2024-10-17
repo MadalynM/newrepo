@@ -12,6 +12,10 @@ body {
   padding: 20px;
 }
 
+h1 {
+  padding: 10px;
+}
+
 h2 {
   color: dodgerblue;
 }
@@ -25,10 +29,6 @@ li {
   text-decoration: none;
 }
 
-.namePrice {
-  font-size: 20px;
-  padding: 15px;
-}
 
 /***** Header ******/
 
@@ -89,6 +89,7 @@ nav ul li a:hover {
 
 a {
   text-decoration: none;
+  color: dodgerblue;
 }
 
 nav ul a:visited {
@@ -157,6 +158,7 @@ a:visited {
 .grid-item1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  padding: 10px;
 }
 
 #upgrades img {
@@ -165,7 +167,39 @@ a:visited {
 }
 
 #upgrades div {
-  margin: 10px;
+  padding: 10px;
+}
+
+/******* Inventory ********/
+#inv-display {
+  text-decoration: none;
+}
+
+#inv-display a {
+  list-style-type: none;
+}
+
+.namePrice {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+
+.namePrice h2 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+/****** Detail **********/
+.detail {
+  padding: 10px;
+}
+
+/******** Footer ********/
+footer {
+  padding: 10px;
 }
 
 /****** Desktop View ******/
